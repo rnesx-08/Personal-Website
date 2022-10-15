@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MYME</title>
+	
+	<link rel="stylesheet" href="./StyleNako.css">
+</head>
+<body>
+    <nav class="navbar">
+		<h1 class="logo">PortFolio</h1>
+		<ul class="nav-links">
+			<li class="active"><a href="#"></a>HOME</li>
+			<li><a href="#"></a>TOURS</li>
+			<li><a href="#"></a>EXPLORE</li>
+			<li><a href="#"></a>ABOUT ME</li>
+			<li class="ctn"><a href="#"></a>CONTACT</li>
+		</ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+	</nav>
+	<header>
+		<div class="header-content">
+			<h2>IF YOU KNOW ME,</h2>
+			<div class="line"></div>
+			<h1>YOU KNOW MY STORY</h1>
+            <a href="#" class="ctn">Learn More</a>
+		</div>
+	</header>
+    <section class="events">
+        <div class="title">
+            <h1>About Me</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="picko.jpg" alt=" ">
+                <h4>“WHO I AM”</h4>
+                <p>I'm Ernest Lloyd Flores, a province boy from Misamis Oriental, <br>Mindanao, who decided
+                     to take a chance and come to Luzon.<br> I'm a shy person who did not enjoy my childhood, 
+                     but I never<br> regret doing it because helping my parents has always been my <br>top priority. 
+                     Creative crafts are one of my favorite hobbies, and <br>I recently discovered that I enjoy 
+                     drawing/sketching but am not<br> very good at it. </p>
+                <a href="#" class="ctn">learn More</a>
+            </div>
+            <div class="col">
+                <img src="pictureko.jpg" alt=" ">
+                <h4>"Today"</h4>
+                <p>Today, I am a completely different person with a completely <br>different mind. I have 
+                    objectives and a sense of direction.<br>I know what I want and I'm doing everything 
+                    I can to get it. <br>I'm more practical about life now than I used to be.</p>
+                <a href="#" class="ctn">learn More</a>
+            </div>
+        
+        </div>>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore</h1>
+            <div class="line"></div>
+            <p>Life is full of opportunities for discovery. I've spent the last 22 years 
+                of my life surrounded by different people, environments, and cultures. 
+                These factors have a significant impact on my personalities, physical health, 
+                career choices, and a variety of other personal aspects. Sometimes I look 
+                back with nostalgia, but after the nostalgia, I gain new insights into myself.
+                Similarly to T.S. "We shall not cease from exploration," Eliot writes in his
+                poem, "and the end of all our exploring will be to arrive where we started a
+                nd know the place for the first time."</p>
+            <a href="#" class="ctn">Learn Mpore</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>HOME TOWN</h1>
+                <div class="line"></div>
+                <h2>Tagoloan Mismamis Oriental In Minadanao</h2>
+                   <p>The land area of Tagoloan is suitable for six <br>
+                   major uses, which include protection forest, <br>
+                   plantation forest, rice, tree and vine, pasture <br>
+                   and cultivated crops.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="Pic1.jpg" alt="">
+                    <img src="Pic2.jpg" alt="">
+                    <img src="Pic3.jpg" alt="">
+                    <img src="Pic4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>FLORES, ERNEST LLOYD B</p>
+        <p>BSIS 2-1-03</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
